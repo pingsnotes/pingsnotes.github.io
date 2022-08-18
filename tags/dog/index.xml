@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dog on Ping&#39;s Notes</title>
+    <link>https://pingsnotes.github.io/tags/dog/</link>
+    <description>Recent content in Dog on Ping&#39;s Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Thu, 18 Aug 2022 04:29:47 +0800</lastBuildDate><atom:link href="https://pingsnotes.github.io/tags/dog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>評評的第一篇文章</title>
+      <link>https://pingsnotes.github.io/blog/test/</link>
+      <pubDate>Thu, 18 Aug 2022 04:29:47 +0800</pubDate>
+      
+      <guid>https://pingsnotes.github.io/blog/test/</guid>
+      <description>Hello World
+我是阿柴
+一級標題 二級標題 六級標題 阿柴 What How 阿喵 Hello What are you Hello</description>
+    </item>
+    
+  </channel>
+</rss>

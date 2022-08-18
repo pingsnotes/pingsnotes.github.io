@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ping&#39;s Notes</title>
+    <link>https://pingsnotes.github.io/</link>
+    <description>Recent content on Ping&#39;s Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Thu, 18 Aug 2022 04:29:47 +0800</lastBuildDate><atom:link href="https://pingsnotes.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>評評的第一篇文章</title>
+      <link>https://pingsnotes.github.io/blog/test/</link>
+      <pubDate>Thu, 18 Aug 2022 04:29:47 +0800</pubDate>
+      
+      <guid>https://pingsnotes.github.io/blog/test/</guid>
+      <description>Hello World
+我是阿柴
+一級標題 二級標題 六級標題 阿柴 What How 阿喵 Hello What are you Hello</description>
+    </item>
+    
+    <item>
+      <title>How To Use Checklists To Improve Your UX</title>
+      <link>https://pingsnotes.github.io/blog/post-13/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://pingsnotes.github.io/blog/post-13/</guid>
+      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://pingsnotes.github.io/about/__index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pingsnotes.github.io/about/__index/</guid>
+      <description>About Me Huabing Zhao is a software architect, an Istio Member and an ONAP PTL.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://pingsnotes.github.io/notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pingsnotes.github.io/notes/</guid>
+      <description>Go 语言学习笔记 Envoy 学习笔记 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://pingsnotes.github.io/search/placeholder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pingsnotes.github.io/search/placeholder/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Posts Archive</title>
+      <link>https://pingsnotes.github.io/archive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pingsnotes.github.io/archive/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
