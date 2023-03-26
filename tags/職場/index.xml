@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>blog on Ping&#39;s Notes</title>
-    <link>https://pingsnotes.github.io/blog/</link>
-    <description>Recent content in blog on Ping&#39;s Notes</description>
+    <title>職場 on Ping&#39;s Notes</title>
+    <link>https://pingsnotes.github.io/tags/%E8%81%B7%E5%A0%B4/</link>
+    <description>Recent content in 職場 on Ping&#39;s Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 29 Oct 2019 13:49:23 +0800</lastBuildDate><atom:link href="https://pingsnotes.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Mar 2023 00:00:00 +0800</lastBuildDate><atom:link href="https://pingsnotes.github.io/tags/%E8%81%B7%E5%A0%B4/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>開始寫作！用《工作與生活的技術》完成第一篇文章</title>
       <link>https://pingsnotes.github.io/blog/work-life-technique/</link>
@@ -19,15 +19,6 @@
 很有趣的是，老師有次怕搭船暈車事先吃了暈車藥，結果竟然一點都不暈，他就直接寫作紀錄自己的出遊心得，看了不禁令人會心一笑。
 積極改變不舒服 王永福老師是個很能反思生活的人，書裡頭有一個小章節我很喜歡，老師因為是高鐵的常客，他觀察到好幾個乘車現象：
 年輕人寧願排隊買票也不善用手機app訂票 大家通常寧願排隊走人多的出口也不願意稍微繞一點路走人少的出口 面對周遭乘客帶來的困擾寧願忍耐一下也不願意稍微換個位子 他反思人怎麼處理生活情境中的不舒服，這樣的態度也會帶到工作中，像是職場上常總有些人抗拒學習新事物、對於不合理的事物採消極態度面對，所以不論是工作或生活上的不舒服，都應該積極改變。</description>
-    </item>
-    
-    <item>
-      <title>How To Use Checklists To Improve Your UX</title>
-      <link>https://pingsnotes.github.io/blog/post-13/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0800</pubDate>
-      
-      <guid>https://pingsnotes.github.io/blog/post-13/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
     </item>
     
   </channel>
