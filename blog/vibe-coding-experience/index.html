@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><head>
+  <meta charset="utf-8">
+  <title>
+    
+    挑戰 30 天 Vibe Coding？ 個人小工具開發心得
+    
+  </title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="分享參加 Vibe Coding 體驗營的心得，從主線任務到個人專案開發的學習歷程">
+  <meta name="author" content="Ping">
+  <meta name="generator" content="Hugo 0.101.0" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://pingsnotes.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://pingsnotes.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://pingsnotes.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://pingsnotes.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://pingsnotes.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://pingsnotes.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://pingsnotes.github.io/images/favicon.png " type="image/x-icon">
+  
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DCDMBHYFYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DCDMBHYFYT');
+</script>
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://pingsnotes.github.io"><img class="img-fluid"
+          src="https://pingsnotes.github.io/images/pingsnotes.jpg" alt="Ping&#39;s Notes"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/pingsnotes"><i class="ti-github"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/yu-ping-tseng/"><i class="ti-linkedin"></i></a>
+            </li>
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://pingsnotes.github.io"><img class="img-fluid"
+            src="https://pingsnotes.github.io/images/pingsnotes.jpg" alt="Ping&#39;s Notes"></a>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="https://pingsnotes.github.io/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://pingsnotes.github.io/about">About</a>
+          </li>
+        </ul>
+
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://pingsnotes.github.io/search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <a href="/categories/%e5%bf%83%e5%be%97"
+          class="text-primary">心得</a>
+
+        <h2>挑戰 30 天 Vibe Coding？ 個人小工具開發心得</h2>
+        <div class="mb-3 post-meta">
+          <span>By Ping</span>
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>28 November 2024</span>
+        </div>
+        
+        <div class="content mb-5">
+          <h2>為什麼我會參加 Vibe Coding 挑戰？</h2>
+          <p>一直以來，我的工作就與程式有關，但一直對「怎麼用 AI 工具提升 Coding 能力」非常好奇。剛好之前參加過六角學院辦的工程師體驗營，對上課的氛圍很喜歡，所以這次就決定再挑戰一次 Vibe Coding 體驗營。</p>
+          <p>課程的氣氛讓人每天都有一點小成就感，也激發我持續探索新的工具和方法。從第一週到最後一週，我覺得最大的收穫是對前後端的整體概念更加清楚了，尤其是我本身是做資料科學和 AI 相關的背景，但對完整前後端的串接沒有那麼熟悉。透過這個小天氣工具，我對「前端 + 後端」如何協作有了更實際的理解，也開始動手做自己的個人網站和小工具。</p>
+          
+          <h2 style="margin-top: 2.5rem;">主線任務：Yuna の氣象物語</h2>
+          <p>課程最後必須實作一個天氣預報小工具，我做了一個「Yuna の氣象物語」，設計理念是<strong>日系手繪療癒風</strong>，並增加台灣所有縣市的 API 查詢功能，可透過下拉選單自己查詢天氣。</p>
+          
+          <h3>UI/UX 的挑戰</h3>
+          <p>六角學院已經事先準備好部份程式碼了，我們要做的就是挑戰加入更多的 API ，或是修改前端介面。一開始我對整個介面設計完全沒有想法。最初，我嘗試用 ChatGPT 討論「森林小木屋風格」，結果產出完全不符合預期，就是一個很樸素的咖啡色配色。後來我才意識到，需要先釐清自己想要的風格，再讓 AI 幫助實作。</p>
+          <p>我和 Gemini 認真討論後，生成了後來的日系手繪風格背景圖，作為整個 UI 的基礎。背景圖放上去後，原本天氣主視窗也需要調整以搭配風格，這部份我也是先請 Gemini 提供修改的 prompt，再丟到 cursor 或 Antigravity 這類專門開發的工具。這部分雖然不涉及複雜框架，但考驗的是「審美 + 邏輯」。</p>
+          <p>這份主線任務的技術挑戰不大，但設計挑戰非常值得玩味。AI 工具可以協助你快速落地，但「我想要什麼」仍然需要自己先明確。</p>
+          
+          <h3>「Yuna の氣象物語」成果展示</h3>
+          <div class="mb-4">
+            <video class="img-fluid w-100" controls preload="metadata" style="max-width: 100%; border-radius: 8px;">
+              <source src="https://pingsnotes.github.io/images/post/yuna-weather-demo.mp4" type="video/mp4">
+              您的瀏覽器不支援視頻播放。
+            </video>
+          </div>
+          <ul>
+            <li><a href="https://yuping1624.github.io/CwaWeather-frontend/">GitHub Pages 網址</a></li>
+            <li><a href="https://github.com/yuping1624/CwaWeather-frontend">GitHub Repo - 前端</a></li>
+            <li><a href="https://github.com/yuping1624/weather-backend">GitHub Repo - 後端</a></li>
+          </ul>
+          
+          <h2 style="margin-top: 2.5rem;">第 21 天打卡任務：海外購物記帳小工具 - 旅費隨記 (PocketTrip)</h2>
+          
+          <h3>為什麼做這個工具？</h3>
+          <p>在國外購物，除了計算匯率，有時可能還會含稅（例如 Toronto 的 13% HST），手算非常麻煩。我決定自己從 0 開發一個小工具，這也是第一次真正從 0-1 做產品，同時串接不同國家的匯率轉換 API。</p>
+          
+          <h3>開發過程</h3>
+          <p>這一個任務我嘗試使用 PRD 規格驅動的方式來開發，我先跟 ChatGPT 討論好需求與規格，接著使用 Cursor + Google AntiGravity 作為開發輔助。</p>
+          <p>一開始還算蠻順利的，80% 的核心功能與設計大概在前 20% 的時間就完成。就在我以為可以在短短 1-2 天內開發完成時，有一個 bug 出現了，我在按下一些確定按鈕的時候 <strong>彈出視窗的位置總是跑掉</strong>，為了這個 bug 我大概又花了額外的 2-3 天，經過學習，我發現問題核心在 CSS 定位與瀏覽器渲染機制：</p>
+          <ol>
+            <li><strong>CSS Positioning</strong>：<code>absolute</code>、<code>fixed</code> 與參考點的關係。</li>
+            <li><strong>包含塊 (Containing Block) 陷阱</strong>：<code>transform</code>、<code>filter</code> 等會改變 fixed 的定位基準。</li>
+            <li><strong>DOM 結構與最佳實踐</strong>：懸浮元素應放在 <code>&lt;body&gt;</code> 直接子元素，避免 z-index 或定位衝突。</li>
+            <li><strong>JavaScript 座標系統</strong>：<code>getBoundingClientRect()</code> vs <code>offsetTop/offsetLeft</code>，確保計算的是視窗座標。</li>
+          </ol>
+          <p>修正後，彈窗終於如想像般顯示，這段經驗也讓我深切理解到 Vibe Coding 的基礎還是在於扎實的軟體工程基本功，沒有這些，Vibe Coding 可能就不那麼 Vibe 了。</p>
+          
+          <h3>旅費隨記 (PocketTrip) 成果展示</h3>
+          <div class="mb-4 text-center">
+            <video class="img-fluid" controls preload="metadata" playsinline style="max-width: 400px; width: 100%; border-radius: 8px; background: #000; display: inline-block;">
+              <source src="https://pingsnotes.github.io/images/post/pockettrip-demo.mp4" type="video/mp4">
+              <source src="https://pingsnotes.github.io/images/post/pockettrip-demo.mov" type="video/quicktime">
+              您的瀏覽器不支援視頻播放。
+            </video>
+          </div>
+          <ul>
+            <li><a href="https://yuping1624.github.io/travel-budget-helper">GitHub Pages 網址</a></li>
+            <li><a href="https://github.com/yuping1624/travel-budget-helper">GitHub Repo</a></li>
+          </ul>
+          
+          <h2 style="margin-top: 2.5rem;">寫在 Vibe Coding 之後</h2>
+          <p>印象中，我以前很喜歡的一位機器學習領域的老師——吳恩達老師——曾經說過，他過去並不覺得那麼多人需要學程式，但隨著這些更強大的 AI 工具出現後，他反而鼓勵更多人去學程式。</p>
+          <p>我認為， Vibe Coding 的本質，其實就在於給更多人這個能力，去創造自己心中想做的工具。</p>
+          <p>當然，從工具到真正的產品，仍然需要技術、商業與系統化的思考，但透過這樣的 Coding 體驗營，對非工程師來說是一個非常好的入門起點。它鼓勵大家勇敢嘗試、玩出自己的風格，從這些小作品中獲得啟發，也讓自己更清楚地看到與頂尖工程師所能做出的產品之間的差距。</p>
+          <p>對我而言，這次課程讓我重新認識自己的不足——無論是前端、後端的開發，還是 UI/UX 的設計思維——但同時也給了我繼續前進的動能。它不只是一次課程，更像是一個起點，提醒我持續學習、持續挑戰自己，去把想法化為真正可以上線的產品。</p>
+          <p align="center"><strong>一起來 Vibe Coding 吧！勇敢踏出第一步，你會發現自己比想像中能創造更多。</strong></p>
+
+        </div>
+        <script src="https://utteranc.es/client.js"
+                label="comment"
+                repo="pingsnotes/pingsnotes.github.io"
+                issue-term="title"
+                theme="github-light"
+                crossorigin="anonymous"
+                async>
+        </script>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<script>
+  var indexURL = "https://pingsnotes.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://pingsnotes.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://pingsnotes.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://pingsnotes.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://pingsnotes.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://pingsnotes.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://pingsnotes.github.io/plugins/search/mark.js"></script>
+
+<script src="https://pingsnotes.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://pingsnotes.github.io/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+</html>
